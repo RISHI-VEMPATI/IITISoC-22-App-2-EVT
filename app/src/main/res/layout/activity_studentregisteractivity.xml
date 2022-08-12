@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D0C3F1"
+    tools:ignore="LabelFor"
+    tools:context=".DriverloginActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="216dp"
+        android:layout_height="214dp"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="97dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/iitindore_logo"
+        android:contentDescription="@string/todo6" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="183dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="88dp"
+        android:text="@string/student_register4"
+        android:textColor="#050505"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <EditText
+        android:id="@+id/etemail"
+        android:layout_width="291dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="67dp"
+        android:background="#4E2780"
+        android:backgroundTint="#4E2780"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="@string/user_id6"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#F8F8F8"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/etpassword"
+        android:layout_width="291dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="67dp"
+        android:background="#4E2780"
+        android:backgroundTint="#4E2780"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="@string/password6"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#F8F8F8"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etemail"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="162dp"
+        android:backgroundTint="#FF5722"
+        android:text="@string/register6"
+        android:textColor="#212121"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etpassword" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="125dp"
+        android:text="@string/have_an_account1"
+        android:textColor="#3949AB"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="107dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="152dp"
+        android:backgroundTint="#D0C3F1"
+        android:text="@string/login7"
+        android:textColor="#090909"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+</androidx.constraintlayout.widget.ConstraintLayout>
